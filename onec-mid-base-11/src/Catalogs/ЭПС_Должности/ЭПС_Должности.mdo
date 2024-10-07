@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96c496bf-8766-45b8-af57-59142dcfafce">
+  <producedTypes>
+    <objectType typeId="7628a1c0-7d15-4e21-b841-fa48abd29919" valueTypeId="6d3d30bf-7d06-42a9-bf4a-edd67b1b695b"/>
+    <refType typeId="d182bbcd-3847-4df5-afbd-6fb0f26a7299" valueTypeId="04529d1e-869d-4231-a0c9-678561537da5"/>
+    <selectionType typeId="fe3b4087-8024-4dde-b717-68eea4fbfe7c" valueTypeId="d610dcad-094d-42c2-a39c-caddc14bc656"/>
+    <listType typeId="2dc9b3f5-fc4f-4659-8502-7c24dc09434c" valueTypeId="93ae2495-d5c8-4b35-bddc-ccfba164bd18"/>
+    <managerType typeId="8ada0627-65df-4e24-a658-1630963de912" valueTypeId="c5371670-98d3-49bc-b8db-c97c80f984d0"/>
+  </producedTypes>
+  <name>ЭПС_Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЭПС_Должности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ЭПС_Должности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
